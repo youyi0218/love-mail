@@ -49,12 +49,19 @@ npm install
 npm run dev
 ```
 
-5. 构建并启动生产服务器
+5. 构建生产环境
 ```bash
-npm start
+npm run build
 ```
 
-6. 访问网站
+构建完成后，构建文件将生成在 `dist` 目录中。
+
+6. 启动生产服务器
+```bash
+npm start server
+```
+
+7. 访问网站
 ```bash
 http://localhost:5520
 ```
