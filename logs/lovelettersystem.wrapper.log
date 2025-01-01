@@ -1,0 +1,48 @@
+2025-01-01 13:04:34 - Starting D:\nodejs\node.exe  --harmony C:\Users\25751\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "D:\Project\love mail\server\index.js" --scriptoptions= --log "LoveLetterSystem wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-01 13:04:35 - Started 50360
+2025-01-01 13:08:34 - Stopping lovelettersystem.exe
+2025-01-01 13:08:34 - ProcessKill 50360
+2025-01-01 13:08:34 - Found child process: 43392 Name: conhost.exe
+2025-01-01 13:08:34 - Found child process: 51272 Name: node.exe
+2025-01-01 13:08:34 - Stopping process 43392
+2025-01-01 13:08:34 - Send SIGINT 43392
+2025-01-01 13:08:34 - SIGINT to 43392 failed - Killing as fallback
+2025-01-01 13:08:35 - Stopping process 51272
+2025-01-01 13:08:35 - Send SIGINT 51272
+2025-01-01 13:08:35 - SIGINT to 51272 failed - Killing as fallback
+2025-01-01 13:08:35 - Stopping process 50360
+2025-01-01 13:08:35 - Send SIGINT 50360
+2025-01-01 13:08:35 - SIGINT to 50360 failed - Killing as fallback
+2025-01-01 13:08:35 - Finished lovelettersystem.exe
+2025-01-01 13:09:30 - Starting D:\nodejs\node.exe  --harmony C:\Users\25751\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "D:\Project\love mail\server\index.js" --scriptoptions= --log "LoveLetterSystem wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-01 13:09:30 - Started 50188
+2025-01-01 13:10:00 - Stopping lovelettersystem.exe
+2025-01-01 13:10:00 - ProcessKill 50188
+2025-01-01 13:10:00 - Found child process: 49716 Name: conhost.exe
+2025-01-01 13:10:00 - Found child process: 40112 Name: node.exe
+2025-01-01 13:10:00 - Stopping process 49716
+2025-01-01 13:10:00 - Send SIGINT 49716
+2025-01-01 13:10:00 - SIGINT to 49716 failed - Killing as fallback
+2025-01-01 13:10:00 - Stopping process 40112
+2025-01-01 13:10:00 - Send SIGINT 40112
+2025-01-01 13:10:00 - SIGINT to 40112 failed - Killing as fallback
+2025-01-01 13:10:00 - Stopping process 50188
+2025-01-01 13:10:01 - Send SIGINT 50188
+2025-01-01 13:10:01 - SIGINT to 50188 failed - Killing as fallback
+2025-01-01 13:10:01 - Finished lovelettersystem.exe
+2025-01-01 13:10:35 - Starting D:\nodejs\node.exe  --harmony C:\Users\25751\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file "D:\Project\love mail\server\index.js" --scriptoptions= --log "LoveLetterSystem wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-01 13:10:35 - Started 51788
+2025-01-01 13:12:06 - Stopping lovelettersystem.exe
+2025-01-01 13:12:06 - ProcessKill 51788
+2025-01-01 13:12:06 - Found child process: 45668 Name: conhost.exe
+2025-01-01 13:12:06 - Found child process: 35368 Name: node.exe
+2025-01-01 13:12:07 - Stopping process 45668
+2025-01-01 13:12:07 - Send SIGINT 45668
+2025-01-01 13:12:07 - SIGINT to 45668 failed - Killing as fallback
+2025-01-01 13:12:07 - Stopping process 35368
+2025-01-01 13:12:07 - Send SIGINT 35368
+2025-01-01 13:12:07 - SIGINT to 35368 failed - Killing as fallback
+2025-01-01 13:12:07 - Stopping process 51788
+2025-01-01 13:12:07 - Send SIGINT 51788
+2025-01-01 13:12:07 - SIGINT to 51788 failed - Killing as fallback
+2025-01-01 13:12:07 - Finished lovelettersystem.exe
