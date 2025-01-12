@@ -68,12 +68,17 @@ git clone https://github.com/youyi0218/love-mail.git
 cd love-mail
 ```
 
-2. 一键启动自动构建：
+2. 安装依赖
+```bash
+npm install
+```
+  
+3. 一键启动自动构建：
 ```bash
 npm start
 ```
 
-3. 访问网站
+4. 访问网站
 ```
 http://localhost:5520
 ```
