@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全局字体设置 */
+@font-face {
+  font-family: 'LXGW WenKai GB';
+  src: url('./fonts/霞鹜文楷GB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 全局样式 */
+html {
+  font-family: 'LXGW WenKai GB', system-ui, -apple-system, sans-serif !important;
+}
+
+body {
+  font-family: 'LXGW WenKai GB', system-ui, -apple-system, sans-serif !important;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+/* Ant Design 组件样式覆盖 */
+.ant-btn,
+.ant-input,
+.ant-modal-content,
+.ant-modal-header,
+.ant-drawer-content,
+.ant-drawer-header,
+.ant-select,
+.ant-message {
+  font-family: 'LXGW WenKai GB', system-ui, -apple-system, sans-serif !important;
+}
+
+/* 编辑器和预览区样式 */
+.editor-content,
+.preview-content {
+  font-family: 'LXGW WenKai GB', system-ui, -apple-system, sans-serif !important;
+}
+
+/* 自定义字体类 */
+.font-romantic {
+  font-family: 'LXGW WenKai GB', system-ui, -apple-system, sans-serif !important;
+}
+
+.font-serif {
+  font-family: 'LXGW WenKai GB', system-ui, -apple-system, sans-serif !important;
+} 

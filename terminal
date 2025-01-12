@@ -1,0 +1,16 @@
+# 1. 安装依赖
+npm install
+
+# 2. 开发模式启动（同时启动前端和后端）
+npm run dev:all
+
+# 或者分别启动：
+# 前端开发服务器
+npm run dev
+
+# 后端服务器
+npm run server
+
+# 3. 生产环境构建和启动
+npm run build  # 构建前端
+npm start      # 启动生产服务器

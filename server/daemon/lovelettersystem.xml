@@ -1,0 +1,50 @@
+<service>
+	<id>lovelettersystem.exe</id>
+	<name>LoveLetterSystem</name>
+	<description>Love Letter System Service</description>
+	<executable>D:\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>--max-old-space-size=2048</argument>
+	<argument>--max-http-header-size=16384</argument>
+	<argument>C:\Users\25751\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\Project\love mail\server\index.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>LoveLetterSystem wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>5</argument>
+	<argument>--abortonerror</argument>
+	<argument>true</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>true</argument>
+	<logmode>rotate</logmode>
+	<logpath>D:\Project\love mail\logs</logpath>
+	<logrotatesize>10485760</logrotatesize>
+	<logrotatecount>10</logrotatecount>
+	<stoptimeout>30sec</stoptimeout>
+	<env name="NODE_ENV" value="production"/>
+	<env name="PORT" value="5520"/>
+	<env name="HOST" value="127.0.0.1"/>
+	<serviceaccount>
+		<domain>DESKTOP-1NAJDJD</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\Project\love mail</workingdirectory>
+	<priority>Normal</priority>
+	<startmode>Automatic</startmode>
+	<delayedAutostart>true</delayedAutostart>
+	<crashrestart>true</crashrestart>
+	<crashdelay>60000</crashdelay>
+	<healthcheck>
+		<url>http://127.0.0.1:5520/health</url>
+		<interval>30000</interval>
+		<timeout>5000</timeout>
+		<maxfailures>3</maxfailures>
+	</healthcheck>
+</service>
