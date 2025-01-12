@@ -61,6 +61,24 @@ npm run server
 ```
 
 ### 生产模式
+#### 自动构建
+1. 克隆并进入项目
+```bash
+git clone https://github.com/youyi0218/love-mail.git
+cd love-mail
+```
+
+2. 一键启动自动构建：
+```bash
+npm start
+```
+
+3. 访问网站
+```
+http://localhost:5520
+```
+
+#### 手动构建
 
 1. 克隆并进入项目
 ```bash
@@ -81,11 +99,6 @@ npm run build
 4. 启动服务
 ```bash
 npm run server
-```
-
-或者使用一键启动命令：
-```bash
-npm start
 ```
 
 5. 访问网站
